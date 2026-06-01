@@ -1,5 +1,5 @@
 // Protected Credentials Log
-const systemBypassCode = "11111";
+const systemBypassCode = "20526";
 let inputTerminalBuffer = "";
 
 // Initialize Interactive Component Engines
