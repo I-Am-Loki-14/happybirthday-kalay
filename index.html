@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity & Beyond | Happy Birthday ⚡</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="cyber-bg">
+        <div class="neon-grid"></div>
+        <div class="glowing-orbs" id="orbsContainer"></div>
+    </div>
+
+    <section id="lock-screen" class="screen-active">
+        <div class="cyber-box" data-aos="zoom-in">
+            <div class="glitch-title" data-text="DECRYPT ACCESS">မောင့် နှလုံးသားထဲသို့ဝင်ရန်</div>
+            <p class="crypto-hint glitch-title" style="font-size: 1rem;">// Password 5 လုံးထည့်ပါ</p>
+
+            <div class="hologram-display">
+                <input type="text" id="pass-input" placeholder="000000" maxlength="6" readonly>
+            </div>
+
+            <div class="matrix-numpad">
+                <button class="matrix-btn" onclick="pressKey(1)">1</button>
+                <button class="matrix-btn" onclick="pressKey(2)">2</button>
+                <button class="matrix-btn" onclick="pressKey(3)">3</button>
+                <button class="matrix-btn" onclick="pressKey(4)">4</button>
+                <button class="matrix-btn" onclick="pressKey(5)">5</button>
+                <button class="matrix-btn" onclick="pressKey(6)">6</button>
+                <button class="matrix-btn" onclick="pressKey(7)">7</button>
+                <button class="matrix-btn" onclick="pressKey(8)">8</button>
+                <button class="matrix-btn" onclick="pressKey(9)">9</button>
+                <button class="matrix-btn terminal-action system-clear" onclick="clearKeys()"><i
+                        class="fa-solid fa-terminal"></i> ပယ်ဖျက်</button>
+                <button class="matrix-btn" onclick="pressKey(0)">0</button>
+                <button class="matrix-btn terminal-action system-bypass" onclick="bypassLock()"><i
+                        class="fa-solid fa-unlock-keyhole"></i> ဝင်မည်</button>
+            </div>
+            <div id="terminal-log" class="log-output"></div>
+        </div>
+    </section>
+
+    <main id="main-dashboard" class="screen-hidden">
+
+        <div class="cyber-music-node">
+            <button id="audioControlBtn" class="node-btn"><i class="fa-solid fa-wave-square"></i></button>
+            <audio id="cyberTrack" loop>
+                <source src="./vid/Disco_Birthday_Party___✨_Happy_Birthday_Celebration_Song(128k).mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <header class="terminal-hero">
+            <div class="hero-box" data-aos="fade-up">
+                <div class="status-indicator">● SYSTEM ONLINE</div>
+                <h1 class="neon-text">HAPPY BIRTHDAY MY HEART <span class="pulse-cyan">[ ကလေးလေး ]</span></h1>
+                <p class="console-subtext"> မောင့်ရဲ့ နှလုံးသားကွန်ရက်ထဲက ကလေး လေးအတွက်...</p>
+                <div class="neon-line"></div>
+            </div>
+        </header>
+
+        <section class="module-wrap">
+            <div class="cyber-box letter-box" data-aos="fade-up">
+                <div class="module-header"><i class="fa-solid fa-heart-pulse"></i> MEMORY_LOG_DECRYPTED.txt</div>
+                <p class="console-paragraph">
+                    ကလေးလေးရေမွေးနေ့မှာ ပျော်ရွင်ပါစေ မောင့် အနားမာလဲ အမြဲရှိပေးပါ မောင်လဲ အမြဲရှိပေးမှာပါ💕
+                    ကလေးလေးရေ... မွေးနေ့မှာ အရာရာအဆင်ပြေပြီး အပျော်ရွှင်ဆုံး ဖြစ်ပါစေနော်။ မောင့်အနားမှာလည်း
+                    အရိပ်လေးတစ်ခုလို
+                    အမြဲတမ်းရှိပေးပါဦး။ မောင်ကလည်း ကလေးလေးရဲ့လက်ကို ဘယ်တော့မှမလွှတ်တမ်း အမြဲတမ်းတင်းကြပ်စွာ
+                    ဆုပ်ကိုင်ပြီး အနားမှာ
+                    ရှိနေပေးမှာပါ။
+                </p>
+            </div>
+        </section>
+
+        <section class="module-wrap">
+            <h2 class="module-title" data-aos="fade-right">// I LOVE YOU IN EVERY UNIVERSE //</h2>
+            <div class="cyber-gallery">
+
+                <div class="neon-card" data-aos="flip-left" style="--card-glow: #ff007f;">
+                    <div class="neon-img-box">
+                        <img src="./img/viber_image_2026-06-02_01-06-29-765.jpg" alt="Log 01"
+                            onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500'">
+                    </div>
+                    <div class="neon-caption">#01_အမှတ်တရတွေနဲ့ 😍</div>
+                </div>
+                <div class="neon-card" data-aos="flip-left" style="--card-glow: #ff007f;">
+                    <div class="neon-img-box">
+                        <img src="./img/viber_image_2026-06-02_01-39-11-582.jpg" alt="Log 01"
+                            onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500'">
+                    </div>
+                    <div class="neon-caption">#02_ကလေး လေးရဲ့အပြုံး 😍</div>
+                </div>
+                <div class="neon-card" data-aos="flip-left" style="--card-glow: #ff007f;">
+                    <div class="neon-img-box">
+                        <img src="./img/jeevan-cake-669971_1920.jpg" alt="Log 01"
+                            onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500'">
+                    </div>
+                    <div class="neon-caption">#03_Happy Birthday 😍</div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </section>
+
+        <section class="module-wrap">
+            <h2 class="module-title" data-aos="fade-right">// အနာဂတ်ရည်မှန်းချက်များ //</h2>
+            <div class="roadmap-grid">
+
+                <div class="roadmap-node" data-aos="fade-up">
+                    <div class="node-number">01</div>
+                    <h3>ဘဝခရီးကို အတူတူ လျှောက်လှမ်းမယ်</h3>
+                    <p>ကလေး လေးရေ... မောင့်အနားမှာ ကလေးလေးသာ ရှိနေပေးရင် မောင် ဘာကိုမှ မကြောက်ဘူး။ တို့နှစ်ယောက် အတူတူ
+                        ရှေ့ဆက်သွားကြမယ်နော်။</p>
+                </div>
+
+                <div class="roadmap-node" data-aos="fade-up" data-aos-delay="100">
+                    <div class="node-number">02</div>
+                    <h3>ပိုမိုအောင်မြင်တဲ့ ဘဝတစ်ခု တည်ဆောက်မယ်</h3>
+                    <p>ကလေးလေးကို သူများတကာတွေကြားထဲ တင့်တောင့်တင့်တယ်နဲ့ စိတ်ချမ်းသာအောင် ထားနိုင်ဖို့က မောင့်ရဲ့
+                        အကြီးမားဆုံး
+                        ရည်မှန်းချက်မို့လို့ မောင့်ရဲ့ ကြိုးစားမှုတွေကို စောင့်ကြည့်ပေးပါဦးနော်။</p>
+                </div>
+
+                <div class="roadmap-node" data-aos="fade-up" data-aos-delay="200">
+                    <div class="node-number">03</div>
+                    <h3>လက်ထပ်ပြီး အိမ်ထောင်တစ်ခု ထူထောင်မယ်</h3>
+                    <p>အချိန်တန်လို့ အခြေအနေတွေ အကုန်လုံး အဆင်သင့်ဖြစ်တဲ့အခါ ကလေးလေးကို ဂုဏ်သိက္ခာရှိရှိနဲ့ တစ်သက်လုံး
+                        ရင်ခွင်ထဲထည့်ပြီး
+                        စောင့်ရှောက်မယ့် ဇနီးမယားအဖြစ် မောင် လက်ထပ်ယူပါ့မယ်။ မောင့်ဘဝရဲ့ နောက်ဆုံးခရီးအထိ ကလေးလေးနဲ့ပဲ
+                        အိမ်ထောင်ရေးတစ်ခုကို
+                        လှလှပပ တည်ဆောက်သွားချင်တာ မောင့်ရဲ့ တကယ့်ဆန္ဒပါ။</p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>// INITIALIZED BY MG // ALL RIGHTS RESERVED TO MY GIRL //</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
